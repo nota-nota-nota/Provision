@@ -384,7 +384,7 @@ public class ProvisioningSession {
 
         request = Request();
 
-        request.sslSetVerifyPeer(false);
+        request.sslSetVerifyPeer(true);
         request.addHeaders([
             "User-Agent": "akd/1.0 CFNetwork/1404.0.5 Darwin/22.3.0",
 
